@@ -1,0 +1,137 @@
+.main-menu ul {
+    margin: 2;
+    padding: 6;
+    list-style-type: none f;
+    display: flex;
+  }
+  
+  .main-menu ul li a {
+    padding: 30px;
+    display: block;
+    color: rgb(8, 6, 6);
+    text-decoration: none;
+    color: rgb(2, 2, 2);
+  
+  }
+  
+  .main-menu ul li ul {
+    display: none;
+    margin: 2px;
+  }
+  
+  .main-menu ul li:hover ul {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .main-menu ul li:hover a {
+    color: #fff;
+  }
+  #imagen::after{  
+    content: '';
+    position:absolute;
+    left: 0;
+    top: 0;
+    height: 200px;
+    width: 350px;  
+    background-color: rgba(210,223,33,0.3);
+}
+
+body {
+  height: 100%;
+}
+body {
+  margin: 12;
+  padding: 12;
+  font-family: exo, sans-serif;
+}
+body{
+  
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  background: url(https://i.pinimg.com/474x/6e/c5/ca/6ec5caa78e3bbf339e5e32c509e2d1fd--wallpaper-for-phone-wallpapers.jpg)  center center fixed;
+ background-color: #ffffff;
+  max-width: 70rem;
+  border-radius: 100px;
+}
+
+div{
+  border: 1px solid rgba(141, 202, 226, 0.3);
+background:-moz-linear-gradient(DeepSkyBlue, black);
+}
+
+nav{
+  border: 1px solid rgba(141, 202, 226, 0.3);
+  display: flex;
+  height: 80px;
+  border: 1px solid rgb(0, 0, 0);
+  align-items: center;
+  background-color: rgb(196, 178, 181);
+  margin: 1px;
+  justify-content: space-around;
+}
+
+.Titulo{
+  border: 1px solid rgba(141, 202, 226, 0.3);
+ height: 100px ;
+  text-align: center;
+  float: left;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.3;
+  color: rgb(255, 255, 255);
+  margin: 2%;
+  border: rgba(255, 255, 255, 00, 0, 0);
+  background:-moz-li-gradient(DeepSkyBlue,Black);
+
+}
+.resumen {
+  border: 1px solid rgba(141, 202, 226, 0.3);
+  text-align: center;
+  float: right;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.3;
+  background:
+}
+.Diagnostico{
+  border: 1px solid rgba(141, 202, 226, 0.3);
+  text-align: center;   
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.3; 
+  color: aqua;
+}
+.encuesta {
+  border: 1px solid rgba(141, 202, 226, 0.3);
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.3;
+  align-content: center;
+}
+
+.justificacion{
+  border: 1px solid rgba(141, 202, 226, 0.3);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+}
+.problema{
+  border: 1px solid rgba(141, 202, 226, 0.3);
+  flex-wrap: wrap;
+  display: flex;
+  background-color: rgba(243, 156, 224, 0.712);
+}
+.investigacion{
+  border: 1px solid rgba(141, 202, 226, 0.3);
+  margin: 10px;
+  width: 100%;
+  flex-wrap: wrap;
+  
+  justify-content: center;
+}
+
+  
